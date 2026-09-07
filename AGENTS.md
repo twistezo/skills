@@ -15,6 +15,7 @@
 - Prefer arrow functions
 - Avoid classes and the `this` keyword
 - Preserve existing project patterns
+- Avoid `reduce` when a simpler, more readable alternative is available
 
 ### TypeScript
 
