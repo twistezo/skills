@@ -71,7 +71,7 @@ Use the following programming principles when applicable.
 
 ### DI & IoC
 
-- Depencendy Injection
+- Dependency Injection
 
   > accept instances of others rather than creating them within
 
