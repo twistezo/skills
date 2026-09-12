@@ -1,21 +1,19 @@
 # Skills
 
-Custom instructions and prompts for AI agents.
+My instructions for AI agents.
 
-## Files
+- [**AGENTS.md**](./AGENTS.md) - general guidelines
+- [**CLAUDE.md**](./CLAUDE.md) - reference for Claude
 
-- **AGENTS.md** - guidelines for AI agents
-- **CLAUDE.md** - constains reference import to AGENTS.md
+## How to use?
 
-## Setup
-
-1. Copy `AGENTS.md` and `CLAUDE.md` to your project root ((recursive if more nested))
+1. Copy `AGENTS.md` and `CLAUDE.md` to your project root
 2. Customize
 3. Agents will use them automatically when needed
 
 ## Recommended Resources
 
-Use Vercel's skills.sh: https://www.skills.sh/ for easy maintenance.
+Use Vercel's skills.sh: https://www.skills.sh for easy maintenance.
 
 Example usage:
 
@@ -28,13 +26,11 @@ npx skills remove ...
 
 They live in `~/.agents/skills`.
 
-PS. For Claude use symlinks.
+PS. Install globally and for Claude choose 'symlinks'.
 
 Widely considered one of the most valuable skill sets available - [mattpocock/skills](https://github.com/mattpocock/skills).
 
 ## Philosophy
-
-Effective AI instruction is rooted in clarity and specificity:
 
 - **Keep it concise** - Remove unnecessary verbosity
 - **Be specific** - Provide concrete examples and requirements
