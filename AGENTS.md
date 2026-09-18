@@ -33,6 +33,11 @@
 - Make sure there are no unused exports
 - Prefer path aliases e.g. `@foo/...`
 
+## Testing
+
+- Write unit tests around real business use cases, not to match the implementation
+- Cover both the happy path and negative paths (invalid input, edge cases, errors)
+
 ## Programming principles
 
 Use the following programming principles when applicable.
