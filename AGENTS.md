@@ -18,6 +18,7 @@
 - Avoid `reduce` when a simpler, more readable alternative is available
 - Prefer self-documenting code through clear naming and structure
 - Keep comments minimal. Use them only when needed to explain what or why
+- Avoid regex unless it's necessary and simple. Prefer plain code.
 
 ### TypeScript
 
