@@ -55,11 +55,10 @@ Requirements:
 
 Steps:
 
-1. Paste the GitHub issue
-2. `/grill-with-docs` - interviews me, updates docs
-3. Use "Plan mode" and refine
-4. Implement the plan - Claude and/or me
-5. Review each step - read, ask, adjust
-6. `/code-review`: the whole plan
-7. Evaluate suggestions: accept, reject, or fix it yourself
-8. Classic self-review: business logic, architecture, etc.
+1. `/grill-with-docs <GIT_HUB_ISSUE_URL>` - interviews me, updates docs
+2. Use "Plan mode" and refine
+3. Implement the plan - Claude and/or me
+4. Review each step - read, ask, adjust
+5. `/code-review`: the whole plan
+6. Evaluate suggestions: accept, reject, or fix it yourself
+7. Classic self-review: business logic, architecture, etc.
