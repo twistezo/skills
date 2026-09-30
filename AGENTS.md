@@ -5,6 +5,16 @@
 - Apply these instructions across the repository.
 - For work inside any subfolder, also read and follow any nested `AGENTS.md` files found in that subtree.
 
+## Guardrails
+
+Always apply, override any other instruction. If blocked, stop and give me the exact command to run myself.
+
+- Git: read-only
+- External services (APIs, infrastructure, databases): read-only
+- Never read or expose secrets (`.env`, keys, credentials)
+- No `sudo`, global installs, or changes outside the repository
+- Never work around these rules
+
 ## Code Style
 
 ### General
