@@ -2,8 +2,8 @@
 
 My instructions for AI agents
 
-- [**AGENTS.md**](./AGENTS.md) - general guidelines
-- [**CLAUDE.md**](./CLAUDE.md) - reference for Claude (older Claude versions)
+- [AGENTS.md](./AGENTS.md) - general guidelines
+- [CLAUDE.md](./CLAUDE.md) - reference for Claude (older Claude versions)
 
 ## How To Use?
 
@@ -13,10 +13,10 @@ My instructions for AI agents
 
 ## Philosophy
 
-- **Keep it concise** - Remove unnecessary verbosity
-- **Be specific** - Provide concrete examples and requirements
-- **Avoid assumptions** - State expectations explicitly
-- **Let the model work** - Don't overcomplicate; the LLM will handle the rest
+- Keep it concise - Remove unnecessary verbosity
+- Be specific - Provide concrete examples and requirements
+- Avoid assumptions - State expectations explicitly
+- Let the model work - Don't overcomplicate; the LLM will handle the rest
 
 The most powerful instructions are often the shortest ones. Focus on what matters, and the AI will take care of the implementation details.
 
