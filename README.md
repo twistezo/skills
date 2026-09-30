@@ -4,12 +4,19 @@ My instructions for AI agents
 
 - [AGENTS.md](./AGENTS.md) - general guidelines
 - [CLAUDE.md](./CLAUDE.md) - reference for Claude (older Claude versions)
+- [install.sh](./install.sh) - global install for Claude Code
 
-## How To Use?
+## Usage
+
+### Globally (Claude):
+
+1. Run `./install.sh`
+2. It overwrites `~/.claude/CLAUDE.md` with [AGENTS.md](./AGENTS.md)
+
+### Per project
 
 1. Copy `AGENTS.md` and `CLAUDE.md` to your project root
 2. Customize
-3. Agents will use them automatically when needed
 
 ## Philosophy
 
@@ -20,11 +27,18 @@ My instructions for AI agents
 
 The most powerful instructions are often the shortest ones. Focus on what matters, and the AI will take care of the implementation details.
 
-## Recommended Resources
+## Recommendations
 
-Use Vercel's https://www.skills.sh for easy maintenance.
+- Use Vercel's https://www.skills.sh for easy maintenance
+- Use [mattpocock/skills](https://github.com/mattpocock/skills) - widely considered one of the most valuable skill sets available
 
-Example usage:
+Tips:
+
+- Install globally
+- For Claude choose 'symlinks'
+- See `~/.agents/skills`
+
+Example:
 
 ```
 npx skills add -g mattpocock/skills
@@ -32,12 +46,6 @@ npx skills list -g
 npx skills update
 npx skills remove ...
 ```
-
-They live in `~/.agents/skills`.
-
-PS. Install globally and for Claude choose 'symlinks'.
-
-Widely considered one of the most valuable skill sets available - [mattpocock/skills](https://github.com/mattpocock/skills).
 
 ## AI-Assisted Development Workflow
 

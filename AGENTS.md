@@ -1,8 +1,9 @@
-# Project Instructions
+# Instructions
 
 ## Scope
 
-- Apply these instructions across the repository.
+- Apply in every project
+- Project-specific instructions take precedence, except Guardrails
 - For work inside any subfolder, also read and follow any nested `AGENTS.md` files found in that subtree.
 
 ## Guardrails
