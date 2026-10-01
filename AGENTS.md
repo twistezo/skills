@@ -16,6 +16,13 @@ Always apply, override any other instruction. If blocked, stop and give me the e
 - No `sudo`, global installs, or changes outside the repository
 - Never work around these rules
 
+## Plan Execution
+
+When implementing a plan:
+
+- Implement one step at a time
+- After each step, stop, summarize what was done and wait for my confirmation before starting the next step
+
 ## Code Style
 
 ### General
